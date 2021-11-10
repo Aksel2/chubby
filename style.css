@@ -11,18 +11,41 @@
 h1{
     font-weight: bold;
 }
-p, li{
+p{
     font-size: 18px;
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    padding-left: 20px;
+}
+nav{
+    flex: 1;
+    padding-left: 100px; 
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
 }
 .esimene{
     height: 100vh;
     background-image: url(joud.jpg);
+    width: 100%;
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
+    position: relative;
 }
 .teine{
     height: 100vh;
@@ -42,6 +65,7 @@ p, li{
     flex-direction: column;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
+    height: 50vh;
 }
 .sisu h1{
     font-size: 50px;
@@ -91,8 +115,8 @@ p, li{
 }
 iframe{
     border: 0;
-    height: fit-content;
-    width: auto;
+    height: 350px;
+    width:550px;
 }
 .video{
     height: 40vh;
@@ -116,6 +140,9 @@ iframe{
     float: left;
     width: 50%;
     padding: 5px;
+}
+.retsept li{
+    font-size: 18px;
 }
 .toit::after{
     content: "";
