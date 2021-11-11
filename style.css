@@ -46,6 +46,7 @@ nav ul li a{
     background-size: cover;
     box-sizing: border-box;
     position: relative;
+    
 }
 .teine{
     height: 100vh;
@@ -65,7 +66,9 @@ nav ul li a{
     flex-direction: column;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 50vh;
+}
+.esimene .sisu{
+    margin-top: 10%;
 }
 .sisu h1{
     font-size: 50px;
@@ -76,8 +79,8 @@ nav ul li a{
 }
 .sisu p{
     color: honeydew;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 20%;
+    margin-left: 20%;
     margin-bottom: 24px;
     text-align-last: center;
 }
@@ -113,10 +116,9 @@ nav ul li a{
 .naited-veerg:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0,0, 0.5);
 }
-iframe{
-    border: 0;
-    height: 350px;
-    width:550px;
+video{
+    height: 90%;
+    width: auto;
 }
 .video{
     height: 40vh;
