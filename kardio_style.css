@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-weight: bold;
+    font-style: italic;
+}
+p{
+    font-size: 18px;
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    padding-left: 20px;
+}
+nav{
+    flex: 1;
+    padding-left: 100px; 
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.esimene{
+    height: 100vh;
+    background-image: url(jooks3.jpeg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.teine{
+    height: 100vh;
+    width: 100%;
+    background-image: url(toit.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.sisu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.esimene .sisu{
+    margin-top: 10%;
+}
+.sisu h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(0, 169, 220);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.sisu p{
+    color: honeydew;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 24px;
+    text-align-last: center;
+}
+.naited{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    height: 60vh;
+}
+.naited h1{
+    font-size: 35px;
+    padding: 20px;
+}
+.naited p{
+    padding: 10px;
+    margin-top: 10px;
+}
+.rida{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.naited-veerg-jooks{
+    flex-basis: 30%;
+    background-image: url(jooks1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 15px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.naited-veerg-ujumine{
+    flex-basis: 30%;
+    background: url(ujumine.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white    ;
+    border-radius: 15px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.naited-veerg-sprint{
+    flex-basis: 30%;
+    background: url(sprint.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white    ;
+    border-radius: 15px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+}
+
+
+.tint-ujumine {
+    background: 
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(ujumine.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    background-position: center;
+  }
+
+.naited-veerg-jooks:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 74, 212);
+}
+.naited-veerg-ujumine:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 74, 212);
+}
+.naited-veerg-sprint:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 74, 212);
+}
+video{
+    height: 90%;
+    width: auto;
+}
+.video{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+.retseptid h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.retseptid{
+    width:100vh;
+    margin: auto;
+}
+.retsept{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.retsept li{
+    font-size: 18px;
+}
+.toit::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.retsept img{
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.viimane{
+    padding-bottom: 20px;
+}
