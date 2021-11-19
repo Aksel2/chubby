@@ -1,5 +1,5 @@
 var message1 = "Trenn ja toitumine";
-var message2 = "Ei tea, mida enne ja pärast trenni süüa?" + "<br>" + "Chubby aitab sind.";
+var message2 = "Ei tea, mida enne ja pärast trenni süüa?" + "<br>" +"<br>" + "Chubby aitab sind.";
 var msgCount = 0;
 var blinkCount = 0;
 var blinkFlg = 0;
