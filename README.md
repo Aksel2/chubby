@@ -3,4 +3,4 @@ Chubby veebilehe eesmärk on näidata, mis toitu peaks sööma, kui tegeletakse 
 
 Tiimiliikmed: Veronika Kukk, Karolina Samasev ja Aksel Õim
 
-Tööjaotus
+Töö oli võrdselt ära jaotatud, igal tiimiliikmel olid enda ülesadned, mis neil oli vaja ära teha ja esitada.
