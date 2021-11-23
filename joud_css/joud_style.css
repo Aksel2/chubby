@@ -1,0 +1,21 @@
+.esimene{
+    height: 100vh;
+    background-image: url(joud.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.teine{
+    height: 100vh;
+    width: 100%;
+    background-image: url(toit.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
