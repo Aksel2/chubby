@@ -1,2 +1,0 @@
-# chubby
-Sissejuhatus erialasse projekt
