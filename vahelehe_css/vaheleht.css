@@ -108,6 +108,8 @@ video{
     flex-direction: column;
     text-align: center;
     position: relative;
+	margin-bottom: 90px;
+    margin-top: 90px;
 }
 .retseptid h1{
     font-size: 35px;
